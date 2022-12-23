@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../Components/Navbar';
 import {Routes, Route} from "react-router-dom"
 import Loginpage from '../Components/Loginpage';
 import Categories from '../Components/Categories';
