@@ -1,0 +1,66 @@
+.login {
+  position: absolute;
+  width: 800px;
+  height: 561px;
+  left: 320px;
+  top: 155px;
+  background: #ffffff;
+  border-radius: 61px;
+  border: 1px solid green;
+}
+
+.login > h2 {
+  position: absolute;
+  /* left: 33.19%;
+  right: 61.39%;
+  top: 29.46%;
+  bottom: 66.06%; */
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31.4749px;
+  line-height: 38px;
+  /* identical to box height */
+
+  /* Text / 01 */
+  
+  color: #000000;
+}
+
+.login>label{
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* Text / 03 */
+
+color: #8B90A0;
+}
+
+
+.login>input{
+  position: absolute;
+/* left: 33.29%;
+right: 49.9%;
+top: 43.75%;
+bottom: 53.38%; */
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+/* Text / 01 */
+
+color: #000000;
+
+border-radius: 11.4454px;
+}
