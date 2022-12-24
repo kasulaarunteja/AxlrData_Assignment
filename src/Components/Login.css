@@ -1,66 +1,88 @@
-.login {
-  position: absolute;
+.form_container1 {
+  margin: 5% auto auto;
+  padding-top: 1%;
+  font-family: calibri;
+  border-radius: 2%;
+  border: 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   width: 800px;
   height: 561px;
   left: 320px;
   top: 155px;
   background: #ffffff;
   border-radius: 61px;
-  border: 1px solid green;
 }
 
-.login > h2 {
-  position: absolute;
-  /* left: 33.19%;
-  right: 61.39%;
-  top: 29.46%;
-  bottom: 66.06%; */
-  font-family: 'Proxima Nova';
+.form_container1 > h2 {
+  margin-left: 30px;
+  margin-bottom: 0%;
+  font-family: "Proxima Nova";
   font-style: normal;
   font-weight: 600;
   font-size: 31.4749px;
   line-height: 38px;
   /* identical to box height */
-
   /* Text / 01 */
-  
   color: #000000;
 }
 
-.login>label{
-  font-family: 'Proxima Nova';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height */
+.form_container1 > form {
+  width: 50%;
+  margin-top: -2%;
+}
+.form1 {
+  width: 30%;
+  height: 77%;
+  text-align: center;
+  padding: 20px 20px 20px 30px;
+  border-radius: 10px;
+}
+.form-control {
+  border: 1.43068px solid #d3d4d8;
+}
+.form1 > #lab {
+  font-size: 20px;
+  display: flex;
+  justify-content: left;
+  margin-top: 0%;
 
-text-transform: uppercase;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
 
-/* Text / 03 */
+  text-transform: uppercase;
 
-color: #8B90A0;
+  /* Text / 03 */
+
+  color: #8b90a0;
 }
 
+.form1 > h4 {
+  margin-top: -0.5%;
+  margin-bottom: 3%;
+}
+a {
+  color: #374151;
+}
 
-.login>input{
+.subbtn {
   position: absolute;
-/* left: 33.29%;
-right: 49.9%;
-top: 43.75%;
-bottom: 53.38%; */
+  width: 143.07px;
+  height: 57.23px;
+  left: 1600px;
+  top: 500px;
 
-font-family: 'Proxima Nova';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height */
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22.8909px;
+  line-height: 28px;
+  /* identical to box height */
 
-
-/* Text / 01 */
-
-color: #000000;
-
-border-radius: 11.4454px;
+  background: #059588;
+  border-radius: 5.72271px;
 }
