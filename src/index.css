@@ -78,3 +78,26 @@ li a {
 
   color: #3f4753;
 }
+
+/* loacation */
+.main {
+  position: absolute;
+  width: 800px;
+  height: 432px;
+  left: 320px;
+  top: 155px;
+  background: #ffffff;
+  border-radius: 61px;
+}
+
+.subbtnll {
+  position: absolute;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22.8909px;
+  line-height: 28px;
+
+  background: #059588;
+  border-radius: 5.72271px;
+}
