@@ -73,7 +73,13 @@ const handleClick = (e) => {
               value={user.user_password}
               onChange={handleChange}
             />
-              
+            <button
+              className="subbtn"
+              type="submit"
+              onClick={handleClick}
+            >
+              Login
+            </button>
           </form>
         </div>
       </div>
