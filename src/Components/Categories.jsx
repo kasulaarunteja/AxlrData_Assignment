@@ -6,7 +6,8 @@ import {getproductdata} from "../Redux/Product/actions";
 
 
 const Categories = () => {
-    const { Prodata} = useSelector((store) => store.otherReducer);
+    const Prodata = useSelector(store => store.product); 
+    console.log(Prodata)
     const dispatch = useDispatch();
 
 
@@ -16,18 +17,14 @@ const Categories = () => {
 
     useEffect(() => {
           getprodata();
-    });
+          //console.log(Prodata)
+    },[]);
 
 
     return (
         <div>
             <Navbar/>
            <h2>Categories</h2>
-           {Prodata.map((ele) => {
-            return (
-                <h3>{}</h3>
-            )
-           })}
         </div>
     );
 }
