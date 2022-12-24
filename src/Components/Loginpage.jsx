@@ -74,7 +74,7 @@ const handleClick = (e) => {
               onChange={handleChange}
             />
             <button
-              className="subbtn"
+              className="subbtnss"
               type="submit"
               onClick={handleClick}
             >
